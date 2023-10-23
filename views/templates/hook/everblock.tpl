@@ -29,6 +29,5 @@
             </div>
             {/if}
         {/foreach}
-    </div>
 {/if}
 <!-- /Module Ever Block -->
