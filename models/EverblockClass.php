@@ -305,6 +305,9 @@ class EverBlockClass extends ObjectModel
                 case 6:
                     $class .= '2';
                     break;
+                case 7:
+                    $class .= 'auto';
+                    break;
                 default:
                     $class .= '12';
                     break;
@@ -327,6 +330,9 @@ class EverBlockClass extends ObjectModel
                     break;
                 case 6:
                     $class .= '2';
+                    break;
+                case 7:
+                    $class .= 'auto';
                     break;
                 default:
                     $class .= '12';

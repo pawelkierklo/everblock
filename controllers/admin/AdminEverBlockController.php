@@ -271,6 +271,10 @@ class AdminEverBlockController extends ModuleAdminController
         ];
         $bootstrapSizes = [
             [
+                'id_bootstrap' => 7,
+                'size' => $this->l('auto')
+            ]
+            [
                 'id_bootstrap' => 6,
                 'size' => $this->l('1/6')
             ],
@@ -636,8 +640,8 @@ class AdminEverBlockController extends ModuleAdminController
                     ],
                     [
                         'type' => 'select',
-                        'label' => $this->l('Bloc size'),
-                        'desc' => $this->l('Please select bloc size'),
+                        'label' => $this->l('Block size'),
+                        'desc' => $this->l('Please select block size'),
                         'hint' => $this->l('Block will have this size'),
                         'name' => 'bootstrap_class',
                         'class' => 'chosen',
