@@ -2978,7 +2978,7 @@ class EverblockTools extends ObjectModel
                         } elseif (is_numeric($value)) {
                             $escapedValues[] = (int) $value;
                         } else {
-                            $escapedValues[] = "'" . pSQL($value) . "'";
+                            $escapedValues[] = "'" . pSQL($value, true) . "'";
                         }
                     }
                     $sqlData .= implode(',', $escapedValues);
